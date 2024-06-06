@@ -10,7 +10,6 @@ public class Service implements Statistique{
         voitures.add(voiture);
     }
 
-    @Override
     public ArrayList getVoitures() {
         return this.voitures;
     }
