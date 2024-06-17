@@ -2,6 +2,7 @@ plugins {
 	id 'java'
 	id 'org.springframework.boot' version '3.3.0'
 	id 'io.spring.dependency-management' version '1.1.5'
+	id 'jacoco'
 }
 
 group = 'com.topaze'
@@ -14,7 +15,7 @@ java {
 }
 
 springBoot{
-	mainClass = 'com.topaze.demo.PaulineApplication'
+	mainClass = 'com.topaze.demo.PaulineApplicationTests'
 
 }
 
