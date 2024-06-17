@@ -14,7 +14,8 @@ java {
 }
 
 springBoot{
-	mainClass = 'com.topaze.demo.PaulineApplicationTests'
+	mainClass = 'com.topaze.demo.PaulineApplication'
+
 }
 
 repositories {
