@@ -1,13 +1,14 @@
 package com.topaze.demo;
 
-import org.junit.jupiter.api.Test;
-import org.springframework.boot.test.context.SpringBootTest;
+import org.junit.platform.suite.api.Suite;
+import org.junit.platform.suite.api.IncludeClassNamePatterns;
+import org.junit.platform.suite.api.SelectPackages;
+import org.junit.platform.suite.api.SuiteDisplayName;
 
-@SpringBootTest
+@Suite
+@SuiteDisplayName("Suite Test Name")
+@SelectPackages({"com.topaze.demo", "pauline"})
+@IncludeClassNamePatterns(".*Test")
+
 class PaulineApplicationTests {
-
-	@Test
-	void contextLoads() {
-	}
-
 }
