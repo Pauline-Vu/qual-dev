@@ -26,12 +26,12 @@ public class ServiceTest {
         s.ajouter(v1);
         s.ajouter(v2);
         assertEquals(80000,s.prix());
-        s.ajouter(v1);
-        s.ajouter(v1);
-        s.ajouter(v1);
-        assertEquals(190000,s.prix());
-        s.ajouter(v1);
-        assertEquals(228000,s.prix());
+        s.ajouter(v3);
+        s.ajouter(v4);
+        s.ajouter(v5);
+        assertEquals(128250,s.prix());
+        s.ajouter(v6);
+        assertEquals(1115000,s.prix());
 
 
 
